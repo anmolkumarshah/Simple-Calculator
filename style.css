@@ -1,0 +1,168 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+.container{
+/*    background-image: url('../IMAGES/back.jpg');*/
+    }
+.screen{
+    text-align: right;
+    padding: 20px;
+    font-family: monospace;
+    font-size: 40px;
+    display:grid;
+    grid-auto-rows: minmax(50px,auto);
+    grid-gap: 10px;
+}
+.history{
+    grid-row: 1/2;
+    font-size:20px;
+    color:blue;
+    background-color: transparent;
+}
+.current{
+    grid-row: 2/3;
+    font-size:50px;
+    background-color: transparent;
+}
+.body{
+    border: 1px solid black;
+    height: 550px;
+    width: 400px;
+    margin:60px auto;
+    background-color: lightcoral;
+    position:relative;
+    top:40px; 
+    border-radius: 50px;
+    box-shadow: 7px 7px 10px black;
+}
+.screen{
+    border: 1px solid black;
+    height:150px;
+    margin: 10px;
+    border-radius: 30px;
+    background-color: burlywood;
+    width:300px;
+     position: absolute;
+    left:40px;
+}
+.button{
+    border: 1px solid black;
+    height:370px;
+    margin:0px;
+    border-radius: 30px;
+     background-color:burlywood;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows:repeat(5,1fr);
+    grid-gap:10px;
+    padding:20px;
+    width:300px;
+    position: absolute;
+    top:170px;
+    left:50px;
+   
+    
+}
+.button button:active{
+    box-shadow: 5px 5px 5px red;
+     border:6px solid black;
+   
+}
+.button button{
+    border:2px solid black;
+    border-radius: 50%;
+     font-weight: bold;
+    font-size:30px;
+     cursor: pointer;
+    outline: none;
+}
+.num1{
+    grid-column: 1/2;
+    grid-row:2/3;   
+}
+.num2{
+    grid-column: 2/3;
+    grid-row:2/3;
+}
+.num3{
+    grid-column: 3/4;
+    grid-row:2/3;
+}
+.num4{
+    grid-column: 1/2;
+    grid-row:3/4;
+}
+.num5{
+    grid-column: 2/3;
+    grid-row:3/4;
+}
+.num6{
+    grid-column: 3/4;
+    grid-row:3/4;
+}
+.num7{
+    grid-column: 1/2;
+    grid-row:4/5;
+}
+.num8{
+    grid-column: 2/3;
+    grid-row:4/5;
+}
+.num9{
+    grid-column: 3/4;
+    grid-row:4/5;
+}
+.num0{
+    grid-column: 2/3;
+    grid-row:5/6;
+}
+.opp{
+    grid-column: 4/5;
+    grid-row:1/2;
+    background-color: darkorange;
+}
+.op-{
+    grid-column: 4/5;
+    grid-row:2/3;
+    background-color: red;
+}
+.opx{
+    grid-column: 4/5;
+    grid-row:3/4;
+    background-color: darkkhaki;
+}
+.opd{
+    grid-column: 4/5;
+    grid-row:4/5;
+    background-color: blueviolet;
+}
+.ope{
+    grid-column: 4/5;
+    grid-row:5/6;
+    background-color:green;
+}
+.opmod{
+    grid-column: 3/4;
+    grid-row:1/2;
+    background-color:yellow;
+}
+
+input{
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: right;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
